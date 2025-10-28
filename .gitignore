@@ -1,3 +1,5 @@
 datasets/
-runs/
 pretrained/
+
+runs/detect/*
+!runs/detect/sample 
