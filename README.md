@@ -9,7 +9,9 @@ pip install torch ultralytics ipykernel
 ```
 
 ## Dataset
-Download dataset from Roboflow
+Download dataset from Roboflow 
+
+https://universe.roboflow.com/yolov4-lcs89/blind-assistance-system/browse?queryText=&pageSize=50&startingIndex=0&browseQuery=true
 
 ## Run code 
 
