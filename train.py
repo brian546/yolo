@@ -43,9 +43,6 @@ result = model.train(
 
 
 # %%
-result.save_dir
-
-# %%
 # load best model
 best_model_path = result.save_dir / 'weights' / 'best.pt'
 model = YOLO(best_model_path)
@@ -54,9 +51,5 @@ model = YOLO(best_model_path)
 # fix model input size to 640
 model.export(format="onnx", imgsz=640, dynamic=False)
 
-
-
-# %%
-model
 
 
